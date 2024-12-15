@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+.controls label {
+  display: inline-block;
+  margin: 10px 5px;
+  font-weight: bold;
+}
+
+.controls input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.metrics {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.metrics p {
+  margin: 5px 0;
+}
